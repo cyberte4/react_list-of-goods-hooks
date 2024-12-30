@@ -19,7 +19,7 @@ export const goodsFromServer = [
 const SORT_FIELD_ALPHABETICAL = 'alphabetical';
 const SORT_FIELD_LENGTH = 'length';
 
-type SortField = 'alphabetical' | 'length' | null;
+type SortField = 'length' | 'alphabetical' | null;
 
 interface SortingOptions {
   sortField: SortField;
